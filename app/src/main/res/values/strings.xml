@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">InfoPretaApp</string>
+    <string name="mensagem_login">Faca seu Login</string>
 </resources>
