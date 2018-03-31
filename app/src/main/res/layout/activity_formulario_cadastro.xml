@@ -4,50 +4,55 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-
-
     <TextView
-        android:text="Usuario"
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textoUsuario" />
+        android:text="Nome:"/>
 
 
     <EditText
-        android:layout_width="match_parent"
+        android:id="@+id/editText"
+        android:layout_width="402dp"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:id="@+id/campoUsuario" />
+        android:inputType="textPersonName" />
+
 
     <TextView
-        android:text="Senha"
-        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/textoSenha" />
+        android:text="Descricao"/>
+
+
     <EditText
+        android:id="@+id/editText2"
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoria"/>
+
+
+    <EditText
+        android:id="@+id/editText3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/campoSenha" />
+        android:inputType="textPersonName" />
+
 
     <Button
-        android:id="@+id/botaoLogin"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imagemLogin" />
-
-    <TextView
-        android:id="@+id/mensagemInicio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mensagem_login"
-        android:textAlignment="center" />
-
+        android:text="Adicionar" />
 
 </LinearLayout>
